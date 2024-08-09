@@ -1,0 +1,180 @@
+body{
+margin: 0;
+padding: 0;
+font-family: var(--font-framily);
+}
+
+
+:root {
+
+        /* Primary Colors */
+
+        --primary-color-moderate-blue:hsl(238, 40%, 52%);
+        --primary-color-soft-red: hsl(358, 79%, 66%);
+        --primary-color-light-light-grayish-blue: hsl(239, 57%, 85%);
+        --primary-color-pale-red: hsl(357, 100%, 86%);
+
+      
+
+        /* Neutral Colors */
+
+        --neutral-color-dark-blue:hsl(212, 24%, 26%);
+        --neutral-color-grayish-blue: hsl(211, 10%, 45%);
+        --neutral-color-light-gray:hsl(223, 19%, 93%);
+        --neutral-color-very-light-gray:hsl(228, 33%, 97%);
+        --neutral-color-white:hsl(0, 0%, 100%);
+
+        --font-framily: Rubik;
+        --font-weight: 400, 500, 700;
+      
+      }
+
+
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+ .chat-container {
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+  }
+  
+  .chat-box {
+    display: flex;
+    align-items: flex-start; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 600px;
+  }
+  
+  .vote-box {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 30px;
+    width: 20px;
+  }
+  
+  .vote-box button {
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+
+  .vote-box p {
+   color: var(--primary-color-moderate-blue);
+   text-align: center;
+   font-weight: bold;
+   padding-left: 10px;
+  }
+
+  
+  .chat-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .chat-time {
+    color: #999;
+    font-size: 0.9em;
+  }
+  
+  .reply-arrow img {
+    cursor: pointer;
+    width: 20px; 
+    height: 20px;
+  }
+  
+  .chat-text {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .chat-reply-box {
+    display: flex;
+    align-items: flex-start; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .user-photo {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    margin-right: 15px; 
+  }
+  
+  .chat-reply {
+    flex: 1; 
+  }
+  
+  .user-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+ 
+
+  .chat-reply-text input[type="text"],
+  .chat-reply-text textarea {
+      flex: 1; 
+      padding: 50px; 
+      margin-right: 10px; 
+      border: 1px solid #ccc; 
+      border-radius: 5px; 
+      font-size: 16px; 
+  }
+
+
+  .chat-reply-text input[type="submit"] {
+    background-color: var(--primary-color-moderate-blue);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  top: 10px;
+  right: 10px;
+}
+
+
+
+  
+  .reply-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  
+
+  }
+    
+   
+
+    
